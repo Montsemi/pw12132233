@@ -1,0 +1,33 @@
+body{
+    border: 1px solid red;
+    font-size: 16 px; /*1em*/
+    margin:0px auto;/*para centrar*/
+    max-width: 1024px;
+}
+
+header nav ul li{
+   /* border: 1px solid blue;*/
+    display: inline-block; /*para poner de manera horizonal*/ 
+    padding: 8px 10px;    /*para que sea mas ancho 8px es de arriba y abajo y 10 px de izquierda a derecha*/ 
+    text-align: center;/*centramos el texto*/
+    width: 17.0%;/*17 porciento de ancho a cada li*/
+}
+/*ESTO ES UN SELECTOR AVANZADO*/
+header nav ul li:nth-child(2) { /*<----- vamos a elegir el li dos  */
+    background: #849C3C;/*ESCOGEMOS COLOR VERDE EL FONDO*/
+
+}
+header nav ul li:nth-child(3) { /*<----- vamos a elegir el li TRES  */
+    background: #353535;/*ESCOGEMOS COLOR PARA EL FONDO*/
+
+}
+header nav ul li:nth-child(4) { /*<----- vamos a elegir el li CUATRO  */
+    background: #D33040;/*ESCOGEMOS COLOR PARA EL FONDO*/
+
+}
+header nav ul li:nth-child(5) { /*<----- vamos a elegir el li CINCO  */
+    background: lightgray;/*ESCOGEMOS COLOR PARA EL FONDO*/
+}
+.letra-blanca{
+    color: white;
+}
