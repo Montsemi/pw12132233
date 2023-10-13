@@ -1,16 +1,30 @@
 body{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     font-size: 16 px; /*1em*/
     margin:0px auto;/*para centrar*/
     max-width: 1024px;
+}
+footer article{
+    display:inline-block;
+    margin-top: 20px;
+    padding:10px;
+    vertical-align: top;
+    width: 31.1%;
+}
+footer img{
+    width:300px
 }
 
 header nav ul li{
    /* border: 1px solid blue;*/
     display: inline-block; /*para poner de manera horizonal*/ 
-    padding: 8px 10px;    /*para que sea mas ancho 8px es de arriba y abajo y 10 px de izquierda a derecha*/ 
+    padding: 8px 14px;    /*para que sea mas ancho 8px es de arriba y abajo y 10 px de izquierda a derecha*/ 
     text-align: center;/*centramos el texto*/
     width: 17.0%;/*17 porciento de ancho a cada li*/
+    
+}
+header ul{
+    margin-left: -37px;
 }
 /*ESTO ES UN SELECTOR AVANZADO*/
 header nav ul li:nth-child(2) { /*<----- vamos a elegir el li dos  */
@@ -28,6 +42,61 @@ header nav ul li:nth-child(4) { /*<----- vamos a elegir el li CUATRO  */
 header nav ul li:nth-child(5) { /*<----- vamos a elegir el li CINCO  */
     background: lightgray;/*ESCOGEMOS COLOR PARA EL FONDO*/
 }
+hr{
+    border-style: dashed;
+    color:#949494;
+}
+section,footer{
+    background: #2C2C2C;
+
+}
+section article{
+    /*border: 1px solid red;*/
+    display: inline-block;
+    height: 280px;
+    padding: 18px 8px;/* 18 px de arriba y abajo 8px de izquierda y derecha */
+    vertical-align: top;
+    width: 17.9%;
+}
+section article:nth-child(2){
+    background: #849C3C;
+}
+section article:nth-child(3){
+    background: #353535;
+}
+section article:nth-child(4){
+    background: #D33040;
+}
+section article:nth-child(5){
+    background: lightgray;
+}
+section article img{
+    width: 150px;
+
+}
+section article ul{
+    list-style: none;
+}
+section article ul li{
+    margin-bottom:10px;
+
+}
+.letra-azul{
+    color:lightblue;
+}
 .letra-blanca{
     color: white;
 }
+.letra-gris{
+    color:#949494;
+}
+.read-more{
+    margin-left: 220px;
+}
+.tam-menu-lateral{
+    font-size: 1.1em;
+}
+.tam-tarjetas{
+    font-size: 1.7em;
+}
+
