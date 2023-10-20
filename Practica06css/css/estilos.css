@@ -1,0 +1,102 @@
+body {
+  border: 1px solid black;
+  font-size: 16px;
+  margin: 0px auto;
+  max-width: 1024px;
+}
+footer {
+  border: 1px solid red;
+  width: 100%;
+  background-color: #000000;
+  color: white;
+}
+footer article {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 50px;
+}
+footer img {
+  width: 30px;
+}
+header {
+  background-color: #000000;
+  color: white;
+  height: 5%;
+  padding: 10px;
+  display: inline- block;
+}
+header input {
+  float: right;
+  margin-right: -250px;
+  margin-top: 15px;
+  padding: 5px 5px;
+}
+input[type="button"] {
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+header img {
+  width: 30px;
+  margin-left: 30px;
+}
+#seccion1 {
+  text-align: center;
+  padding: 40px 40px;
+  height: 150px;
+  background-color: #dadaf4;
+}
+#seccion1 input {
+  padding: 5px 200px;
+  text-align: center;
+}
+#btn1 {
+  border-bottom: 1px solid white;
+  background-color: #000000;
+}
+#btn2 {
+  border-bottom: 1px solid blue;
+  background-color: #4a5fd4;
+}
+
+#seccion2 {
+  width: 100%;
+  padding: 20px 20px;
+  height: auto;
+}
+#seccion2 article {
+  width: 40%;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+#seccion2 article img {
+  width: 60px;
+  float: left; /* Alinea la imagen a la izquierda */
+  margin-right: 20px; /* Añade un margen derecho para separar la imagen del texto */
+  clear: left; /* Evita que otros elementos floten junto a la imagen */
+}
+#copy {
+  margin-top: 200px;
+  margin-left: 20px;
+  padding: 5px;
+}
+footer article ul {
+  list-style: none;
+}
+
+.letrablanca {
+  color: white;
+}
+.nito {
+  font-weight: bold;
+}
+.letragrande {
+  font-size: 3.5em;
+}
+.tamp {
+  font-size: small;
+}

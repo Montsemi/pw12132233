@@ -1,0 +1,193 @@
+body {
+  border: 1px solid blue;
+  font-size: 16px;
+  margin: 0px auto;
+  max-width: 1024px;
+  background: #f0f0f0;
+}
+header {
+  background: #375b96;
+}
+
+#logo {
+  position: relative;
+  text-align: center;
+  right: -400px;
+  width: 200px;
+}
+#navs nav {
+  background-color: #efefef;
+  border-radius: 5px;
+  margin: 0px 6px;
+  padding: 6px 0px;
+}
+#seccion1 {
+  width: 23.55%;
+}
+#seccion1-art1 ul li {
+  list-style: "</>";
+  font-size: 1em;
+  color: white;
+  padding-bottom: 10px;
+  margin-top: -5px;
+}
+
+#seccion1-art1 {
+  background: #1f4973;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+#seccion1-art2 {
+  background-color: #ffffff;
+  margin-left: 15px;
+}
+#seccion2 {
+  vertical-align: top;
+  border-radius: 5px;
+  width: 70%;
+  margin-left: 260px;
+  margin-top: -570px;
+  background-color: #ffffff;
+  padding: 20px 20px;
+}
+#seccion2-articleCubes {
+  width: 100%;
+}
+
+#seccion2-articleCubes article {
+  vertical-align: top;
+  display: inline-block;
+}
+
+#seccion2-cubos {
+  padding: 6px 8px;
+  width: 20%;
+  text-align: center;
+  background-color: #1fa922;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+#cubo01 {
+  width: 80px;
+}
+#seccion2-cubos2 {
+  padding: 6px 8px;
+  width: 20%;
+  text-align: center;
+  background-color: #1d6ba9;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+#cubo02 {
+  width: 80px;
+}
+#seccion2-cubos3 {
+  padding: 6px 8px;
+  width: 20%;
+  text-align: center;
+  background-color: #7f1ea9;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+#cubo03 {
+  width: 80px;
+}
+
+#seccion2-cubos4 {
+  padding: 6px 8px;
+  width: 20%;
+  text-align: center;
+  background-color: #a61a1b;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+#cubo04 {
+  width: 80px;
+}
+#seccion3 {
+  width: 70%;
+  margin-left: 260px;
+  background-color: #ffffff;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+}
+#panelitos {
+  width: 700px;
+}
+#artusuarios article {
+  vertical-align: top;
+  display: inline-block;
+}
+#primerusuario {
+  background-color: #496aad;
+  padding: 6px 8px;
+  width: 20%;
+  text-align: center;
+}
+#primerusuario img {
+  width: 110px;
+  padding: 20px 20px;
+}
+#segundousuario {
+  background-color: #496aad;
+  padding: 6px 8px;
+  width: 20%;
+  text-align: center;
+}
+#segundousuario img {
+  width: 100px;
+  padding: 20px 20px;
+}
+#tercerusuario {
+  background-color: #496aad;
+  padding: 6px 8px;
+  width: 20%;
+  text-align: center;
+}
+#tercerusuario img {
+  width: 100px;
+  padding: 20px 20px;
+}
+#cuartousuario {
+  background-color: #496aad;
+  padding: 6px 8px;
+  width: 20%;
+  text-align: center;
+}
+#cuartousuario img {
+  width: 100px;
+  padding: 20px 20px;
+}
+
+.nav {
+  float: right;
+  width: 80px;
+  top: 10%;
+}
+.progress {
+  width: 90%;
+}
+.letra-blanco {
+  background-color: #375b96;
+  padding: 10px 49px;
+  color: white;
+}
+.logoprogress {
+  position: relative;
+  bottom: 240px;
+  width: 10%;
+  left: 10px;
+}
+
+.letra-gris {
+  color: #a1a1a1;
+}
+
+.letrablanca {
+  color: white;
+}
+.btn {
+  background-color: #5fbede;
+  color: white;
+}

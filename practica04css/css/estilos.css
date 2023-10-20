@@ -1,0 +1,93 @@
+body{
+   /* border: 1px solid red;*/
+    font-size: 16 px; /*1em*/
+    margin:0px auto;/*para centrar*/
+    max-width: 1038px;
+}
+header nav{
+    margin-right:80px ;
+    /*text-align: center;*/
+}
+header nav ul li{
+    
+     display: inline-block; /*para poner de manera horizonal*/ 
+     padding: 10x 5px;    /*para que sea mas ancho 8px es de arriba y abajo y 10 px de izquierda a derecha*/ 
+     text-align: left;/*centramos el texto*/
+     width: 7.0%;/*17 porciento de ancho a cada li*/
+ }
+ header ul{
+    margin-left: -37px; /*Me movio mi nav para la izquierda*/
+    margin-top: 40px;
+}
+
+hr  {
+    color: #949494;
+}
+#logos{
+    float: right;
+}
+#imagenesesq{
+    float: right;
+}
+
+#shop {
+    position: absolute;
+    top: 0;
+    margin-left: 750px;
+    margin-top: 50px;
+    width: 150px;
+}
+#compra {
+
+    margin-left: 700px;
+    margin-top: -50px;
+    width: 60px;
+ }
+ #normal{
+    border-style: dashed;
+    color: #949494;
+
+ }
+.letra-nito{
+    font-weight: bold; /* negritas */
+}
+.tam-titulo{
+    font-size: 3.5em; /* 3.5x16 */
+}
+.verde{
+    color: #39ff14;
+}
+.gris{
+    color:#828282;
+}
+#bici{
+    left:700px;
+	position: relative;
+	top: -490px;
+    width: 400px;
+}
+#cinco{
+    left:300px;
+	position: relative;
+	top: -490px;
+    width: 150px;
+}
+#logos{
+    right:930px;
+	position: relative;
+	top: -450px;
+    width: 100px;
+}
+#copy{
+    margin-top: -450px;
+	text-align: right;
+    position: relative;
+    padding-right: 450px;
+}
+footer article{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    vertical-align: top;
+    width: 15%;
+}
